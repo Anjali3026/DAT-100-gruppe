@@ -4,17 +4,29 @@ public class Tabeller {
 
 	// a)
 	public static void skrivUt(int[] tabell) {
+		for (int t : tabell) {
+			System.out.println(t + " ");
 
-		// TODO
-		throw new UnsupportedOperationException("Metoden skrivUt ikke implementert");
-
+		}
 	}
 
 	// b)
-	public static String tilStreng(int[] tabell) {
+		public static String tilStreng(int[] tabell) {
+			String resultat = "[";
 
-		// TODO
-		throw new UnsupportedOperationException("Metoden tilStreng ikke implementert");
+			for (int i = 0; i < tabell.length; i++) {
+				resultat += tabell[i];
+
+				if (i < tabell.length - 1) {
+					resultat = resultat + ",";
+				}
+			}
+
+			resultat = resultat +  "]";
+
+			return resultat;
+		}
+
 	}
 
 	// c)
