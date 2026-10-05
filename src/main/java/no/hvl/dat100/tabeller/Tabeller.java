@@ -23,6 +23,7 @@ public class Tabeller {
 		}
 
 		resultat = resultat + "]";
+		System.out.println(resultat);
 
 		return resultat;
 	}
