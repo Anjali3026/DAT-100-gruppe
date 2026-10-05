@@ -31,8 +31,6 @@ public class Tabeller {
 		// c)
 	public static int summer(int[] tabell) {
 
-		// c)
-		public static int summer(int[] tabell) {
 			int sum = 0;
 
 			for (int i = 0; i < tabell.length; i++) {
@@ -45,9 +43,7 @@ public class Tabeller {
 
 	// d)
 	public static boolean finnesTall(int[] tabell, int tall) {
-
-		public static boolean finnesTall(int[] tabell, int tall) {
-			for (int i = 0; i < tabell.length; i++) {
+		for (int i = 0; i < tabell.length; i++) {
 				if (tabell[i]==tall)  {
 					return true;
 
@@ -60,8 +56,6 @@ public class Tabeller {
 
 	// e)
 	public static int posisjonTall(int[] tabell, int tall) {
-
-		public static int posisjonTall (int[]tabell, int tall) {
 			for (int i = 0; i < tabell.length; i++) {
 				if (tabell[i] == tall) {
 					return i;
@@ -87,8 +81,6 @@ public class Tabeller {
 
 	// g)
 	public static boolean erSortert(int[] tabell) {
-
-		public static boolean erSotert(int[] tabell) {
 			for (int i = 0; i < tabell.length; i++) {
 				if (tabell[i] <= tabell[i - 1]) {
 					return false;
@@ -101,8 +93,8 @@ public class Tabeller {
 
 		// h)
 	public static int[] settSammen(int[] tabell1, int[] tabell2) {
-			public static int[] settSammen (int[] tabell1, int [] tabell2){
-				int[] nyTabell = new int[tabell1.length + tabell2.length];
+
+	int[] nyTabell = new int[tabell1.length + tabell2.length];
 
 				for (int i = 0 ; i < tabell1.length; i++){
 					nyTabell[i]=tabell1[i];
