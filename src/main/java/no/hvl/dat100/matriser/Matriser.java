@@ -17,12 +17,17 @@ public class Matriser {
 	// b)
 	public static String tilStreng(int[][] matrise) {
 
-
 			String tekst = "";
 
 			for (int[] rad : matrise) {
-				for (int tall : rad) {
-					tekst = tekst + tall + " ";
+
+				for (int i = 0; i < rad.length; i++) {
+
+					tekst = tekst + rad[i];
+
+					if (i < rad.length - 1) {
+						tekst = tekst + " ";
+					}
 				}
 
 				tekst = tekst + "\n";
@@ -30,7 +35,6 @@ public class Matriser {
 
 			return tekst;
 		}
-		
 
 
 	// c)
