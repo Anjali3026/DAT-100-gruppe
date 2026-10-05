@@ -51,7 +51,7 @@ public class Tabeller {
 			}
 			return false;
 		}
-	}
+
 
 
 	// e)
@@ -63,7 +63,7 @@ public class Tabeller {
 			}
 			return -1;
 		}
-	}
+
 
 
 	// f)
@@ -77,7 +77,6 @@ public class Tabeller {
 		return reverser;
 	}
 
-}
 
 	// g)
 	public static boolean erSortert(int[] tabell) {
